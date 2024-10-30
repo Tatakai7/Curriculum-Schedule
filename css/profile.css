@@ -1,0 +1,68 @@
+#container {
+    margin: 0 auto;
+    width: 600px;
+    height: 300px;
+    background-color: rgba(255, 202, 235, 0.151);
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 50px;
+    margin-bottom: 190px;
+}
+
+#info {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+#value {
+    font-size: 25px;
+    width: 300px;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+#label {
+    text-align: end;
+    width: 150px;
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+#pass {
+    height: 100%;
+    width: 300px;
+    display: flex;
+    border: 1px lightgrey solid;
+}
+
+#pass input {
+    font-size: 25px;
+    width: 250px;
+    border: none;
+    padding-left: 5px;
+    background: none;
+}
+
+#eye1 {
+    opacity: 50%;
+    height: 100%;
+    padding: 10px;
+    background: none;
+}
+
+#eye2 {
+    opacity: 50%;
+    height: 100%;
+    padding: 10px;
+    display: none;
+    background: none;
+}
+
+#eye1:hover,
+#eye2:hover {
+    opacity: 100%;
+}

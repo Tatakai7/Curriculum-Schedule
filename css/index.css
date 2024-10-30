@@ -1,0 +1,215 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Segoe Print;
+}
+
+
+/*======INDEX======*/
+
+body {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#header {
+    width: 100%;
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.menu {
+    width: 100%;
+    margin: 0 auto;
+    border-bottom: #a52e1a;
+    background-color: #a52e1a;
+    position: fixed;
+    left: 0;
+    top: 63px;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+.menu ul li {
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: rgb(224, 137, 55);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, Sans-serif;
+}
+
+.menu ul li a:hover {
+    color: rgb(160, 150, 255);
+    transition: 0.1s;
+}
+
+.submenu {
+    display: none;
+}
+
+.menu ul li:hover .submenu {
+    display: block;
+    position: absolute;
+    margin-top: 5px;
+    background-color: #086b99;
+    border: 2px black solid;
+}
+
+.menu ul li:hover .submenu ul {
+    display: block;
+    margin: 10px;
+    list-style: none;
+}
+
+.menu ul li:hover .submenu ul li {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px black solid;
+}
+
+.menu ul li:hover .submenu ul li:last-child {
+    border-bottom: none;
+}
+
+.menu ul li:hover .submenu ul li a {
+    font-size: 20px;
+    font-weight: normal;
+    color: black;
+}
+
+.menu ul li:hover .submenu ul li a:hover {
+    background-color: white;
+}
+
+#content {
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 20px;
+    margin-top: 100px;
+}
+
+#footer {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #a52e1a;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer p {
+    color: rgb(155, 196, 5);
+    padding: 10px;
+    font-family: 'Courier New', Courier, Sans-serif;
+}
+
+.TITLE {
+    background-color: rgb(32, 60, 185);
+    color: #b41b06;
+    word-break: break-all;
+    font-family: Comic Sans Ms ;
+    font-size: 50px;
+    padding: 0 auto;
+    /*padding-left: 5px;*/
+    font-weight: bolder;
+    margin: 0 auto;
+    text-align: center;
+}
+
+span {
+    color: #1f0313;
+    font-family: Comic Sans Ms;
+}
+
+.HOME a {
+    color: black;
+    font-family: Arial, Helvetica, Sans-serif;
+    text-decoration: none;
+}
+
+.HOME a:hover {
+    padding: 4px;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 10px;
+}
+
+.HOME {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.FOODS a {
+    color: black;
+    font-family: Arial, Helvetica, Sans-serif;
+    text-decoration: none;
+}
+
+.FOODS a:hover {
+    padding: 4px;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 10px;
+}
+
+.FOODS {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.SPORTS a {
+    color: black;
+    font-family: Arial, Helvetica, Sans-serif;
+    text-decoration: none;
+}
+
+.SPORTS a:hover {
+    background-color: white;
+    padding: 4px;
+    transition: 0.4s;
+    border-radius: 10px;
+}
+
+.SPORTS {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.POSITIONING a {
+    color: black;
+    font-family: Arial, Helvetica, Sans-serif;
+    text-decoration: none;
+}
+
+.POSITIONING a:hover {
+    background-color: white;
+    padding: 4px;
+    transition: 0.4s;
+    border-radius: 10px;
+}
+
+.POSITIONING {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 10px;
+}

@@ -1,0 +1,149 @@
+.login {
+    position: relative;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    background-color: #a52e1a;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#title {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    width: 250px;
+}
+
+#title p {
+    font-size: 32px;
+    color: rgb(255, 255, 255);
+}
+
+#title p span {
+    color: rgb(255, 255, 255);
+    font-family: Sans-serif;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#pass {
+    height: 40px;
+    background: none;
+    border: none;
+    margin: 10px;
+    outline: none;
+    border-bottom: rgb(255, 255, 255);
+    padding-left: 10px;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+
+#pass input {
+    height: 40px;
+    width: 330px;
+    background: none;
+    border: none;
+    outline: none;
+    color: black;
+}
+
+#eye1 {
+    height: 30px;
+    margin-top: 5px;
+    position: absolute;
+    right: 15px;
+    opacity: 50%;
+}
+
+#eye2 {
+    opacity: 50%;
+    height: 30px;
+    margin-top: 5px;
+    position: absolute;
+    right: 15px;
+    display: none;
+}
+
+#eye1:hover,
+#eye2:hover {
+    opacity: 100%;
+}
+
+.inputs input[type="text"] {
+    height: 40px;
+    background: none;
+    border: none;
+    margin: 10px;
+    outline: none;
+    border-bottom: rgb(255, 255, 255);
+    padding-left: 10px;
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+
+.inputs input[type="submit"] {
+    height: 30px;
+    background: rgb(25, 3, 218);
+    color: rgb(15, 161, 81);
+    border: 1px white solid;
+    border-radius: 20px;
+    width: 100px;
+    margin: 0 auto;
+    font-size: 15px;
+}
+
+.inputs input[type="submit"]:hover {
+    background-color: rgb(255, 255, 255);
+    border: 3px rgb(25, 3, 218);
+}
+
+.error {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}
+
+#captcha {
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 50px;
+}
+
+select {
+    height: 40px;
+    background: none;
+    border: none;
+    margin: 10px;
+    outline: none;
+    border-bottom: 3px #00BFFF solid;
+    padding-left: 10px;
+    color: black;
+    background-color: white;
+}
+
+select option {
+    font-size: 20px;
+    color: black;
+}
+
+#signup {
+    height: 38px;
+    width: 130px;
+    color: rgb(25, 3, 218);
+    text-decoration: none;
+    text-align: center;
+    font-size: 32px;
+    font-family: Segoe Print;
+    padding-top: 2px;
+}

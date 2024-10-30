@@ -1,0 +1,66 @@
+.positioning-container {
+    position: relative;
+    width: 575px;
+    margin: 0 auto;
+    border: 1px black solid;
+    border-radius: 5%;
+    padding: 50px;
+    background-image: url("../imgs/Positioning/bananal.jpg");
+}
+
+.inner-container {
+    position: relative;
+    border: 1px black solid;
+    background-image: url("../imgs/Positioning/basket.jpg");
+    padding: 10px;
+    border-radius: 5%;
+}
+
+.demo-header {
+    position: absolute;
+    top: -25px;
+    left: -25px;
+    padding: 20px;
+    background-image: url("../imgs/bgs/drip.jpg");
+    background-size: cover;
+    border: 1px black solid;
+    width: 200px;
+    margin-top: 0;
+    text-align: center;
+}
+
+h2 {
+    color: limegreen;
+    font-family: cursive;
+    font-size: 30px;
+    font-weight: 800px;
+    top: 5px;
+}
+
+.inner-container img {
+    position: absolute;
+    border: 1px black solid;
+    border-radius: 5%;
+}
+
+.sample-image-01 {
+    top: 10px;
+    right: 5px;
+    z-index: 1;
+    height: 350px;
+    width: 250px;
+}
+
+.sample-image-02 {
+    right: 5px;
+    z-index: 10;
+    width: 100px;
+    height: 110px;
+}
+
+.recipe {
+    margin: 50px 300px 10px 25px;
+    background-color: white;
+    border: 1px black solid;
+    border-radius: 5%;
+}

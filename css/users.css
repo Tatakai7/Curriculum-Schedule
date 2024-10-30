@@ -1,0 +1,127 @@
+table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+th {
+    height: 30px;
+    background-color: rgb(40, 69, 231);
+}
+
+td {
+    font-size: 18px;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-top: 0px;
+}
+
+tr:nth-child(even) {
+    background-color: #fdb3b3;
+}
+
+tr:nth-child(odd) {
+    background-color: #ffd5d5;
+}
+
+#edit {
+    background-color: rgb(153, 50, 250);
+    text-decoration: none;
+    color: black;
+    padding: 4px;
+    font-size: 18px;
+    border-radius: 7px;
+    border: 1px black solid;
+}
+
+.delete {
+    background-color: rgb(211, 255, 128);
+    text-decoration: none;
+    color: black;
+    padding: 4px;
+    font-size: 18px;
+    border-radius: 7px;
+    border: 1px black solid;
+}
+
+#insert {
+    background-color: rgb(255, 145, 145);
+    text-decoration: none;
+    color: black;
+    border: 1px black solid;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+#edit:hover {
+    background-color: rgb(0, 253, 34)
+}
+
+.delete:hover {
+    background-color: rgb(54, 253, 114)
+}
+
+#insert:hover {
+    background-color: rgb(116, 221, 253)
+}
+
+#form {
+    display: none;
+    border: 1px black solid;
+    position: fixed;
+    top: 33%;
+    left: 33%;
+    width: 400px;
+    height: 150px;
+    background-color: #dfdfdf;
+    text-align: center;
+}
+
+#q {
+    font-size: 20px;
+}
+
+.buttons {
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#cancel {
+    background-color: rgb(248, 117, 117);
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px black solid;
+    text-align: center;
+    width: 100px;
+}
+
+#submit {
+    background-color: rgb(50, 250, 157);
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px black solid;
+    text-align: center;
+    width: 120px;
+}
+
+#cancel:hover {
+    background-color: rgb(238, 35, 35);
+}
+
+#submit:hover {
+    background-color: rgb(0, 180, 24);
+}

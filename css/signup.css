@@ -1,0 +1,134 @@
+.fillupform {
+    border: 1px black solid;
+    background-color: rgb(255, 198, 152);
+    height: 600px;
+    width: 800px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+h1 {
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+h1 span {
+    color: #b34614;
+    font-family: Segoe Print;
+}
+
+form {
+    margin-top: 50px;
+    height: 400px;
+}
+
+#cancel {
+    background-color: rgb(255, 131, 131);
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px black solid;
+    margin-left: 250px;
+    width: 220px;
+    text-align: center;
+}
+
+#submit {
+    background-color: rgb(64, 252, 164);
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px black solid;
+    width: 220px;
+    text-align: center;
+}
+
+#cancel:hover {
+    background-color: rgb(214, 0, 0);
+}
+
+#submit:hover {
+    background-color: rgb(1, 199, 27);
+}
+
+.inputs {
+    display: flex;
+    width: 700px;
+    height: 50px;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#password {
+    width: 600px;
+    border: none;
+}
+
+input {
+    font-size: 20px;
+    height: 100%;
+    width: 100%;
+    padding-left: 5px;
+    border: none;
+}
+
+#input {
+    width: 450px;
+    border: 1px black solid;
+    display: flex;
+}
+
+#eye1 {
+    opacity: 50%;
+    height: 30px;
+    margin-top: 8px;
+}
+
+#eye2 {
+    opacity: 50%;
+    height: 30px;
+    margin-top: 8px;
+    display: none;
+}
+
+#eye1:hover,
+#eye2:hover {
+    opacity: 100%;
+}
+
+#label {
+    font-size: 25px;
+    padding-top: 10px;
+    width: 200px;
+    text-align: right;
+}
+
+.buttons {
+    width: 700px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#error {
+    font-size: 20px;
+    color: red;
+    padding-left: 40%;
+    margin: 0 auto;
+    width: 600px;
+    margin-top: 10px;
+}
+
+select {
+    border: none;
+    font-size: 20px;
+    height: 100%;
+    width: 450px;
+    padding-left: 5px;
+}
